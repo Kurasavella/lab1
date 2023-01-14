@@ -1,0 +1,344 @@
+# Compile of PROCESSING_UNIT.v was successful.
+# Compile of PROCESSING_UNIT_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.PROCESSING_UNIT_tb
+# vsim -gui work.PROCESSING_UNIT_tb 
+# Start time: 20:22:13 on Jan 14,2023
+# Loading work.PROCESSING_UNIT_tb
+# Loading work.PROCESSING_UNIT
+add wave  \
+sim:/PROCESSING_UNIT_tb/I_CLK \
+sim:/PROCESSING_UNIT_tb/I_RST_N \
+sim:/PROCESSING_UNIT_tb/I_CLK_eN \
+sim:/PROCESSING_UNIT_tb/o_Y_done \
+sim:/PROCESSING_UNIT_tb/rdEnb \
+sim:/PROCESSING_UNIT_tb/o_Y_done_enb \
+sim:/PROCESSING_UNIT_tb/o_Y_addr \
+sim:/PROCESSING_UNIT_tb/o_Y_active \
+sim:/PROCESSING_UNIT_tb/Data_Type_Conversion_out1_addr \
+sim:/PROCESSING_UNIT_tb/Data_Type_Conversion7_out1_addr_delay_1 \
+sim:/PROCESSING_UNIT_tb/tb_enb_delay \
+sim:/PROCESSING_UNIT_tb/fp_I_X3 \
+sim:/PROCESSING_UNIT_tb/rawData_I_X3 \
+sim:/PROCESSING_UNIT_tb/status_I_X3 \
+sim:/PROCESSING_UNIT_tb/holdData_I_X3 \
+sim:/PROCESSING_UNIT_tb/I_X3_offset \
+sim:/PROCESSING_UNIT_tb/I_X3 \
+sim:/PROCESSING_UNIT_tb/Data_Type_Conversion6_out1_addr_delay_1 \
+sim:/PROCESSING_UNIT_tb/fp_I_X2 \
+sim:/PROCESSING_UNIT_tb/rawData_I_X2 \
+sim:/PROCESSING_UNIT_tb/status_I_X2 \
+sim:/PROCESSING_UNIT_tb/holdData_I_X2 \
+sim:/PROCESSING_UNIT_tb/I_X2_offset \
+sim:/PROCESSING_UNIT_tb/I_X2 \
+sim:/PROCESSING_UNIT_tb/Data_Type_Conversion5_out1_addr_delay_1 \
+sim:/PROCESSING_UNIT_tb/fp_I_X1 \
+sim:/PROCESSING_UNIT_tb/rawData_I_X1 \
+sim:/PROCESSING_UNIT_tb/status_I_X1 \
+sim:/PROCESSING_UNIT_tb/holdData_I_X1 \
+sim:/PROCESSING_UNIT_tb/I_X1_offset \
+sim:/PROCESSING_UNIT_tb/I_X1 \
+sim:/PROCESSING_UNIT_tb/Data_Type_Conversion4_out1_addr_delay_1 \
+sim:/PROCESSING_UNIT_tb/fp_I_X0 \
+sim:/PROCESSING_UNIT_tb/rawData_I_X0 \
+sim:/PROCESSING_UNIT_tb/status_I_X0 \
+sim:/PROCESSING_UNIT_tb/holdData_I_X0 \
+sim:/PROCESSING_UNIT_tb/I_X0_offset \
+sim:/PROCESSING_UNIT_tb/I_X0 \
+sim:/PROCESSING_UNIT_tb/Data_Type_Conversion3_out1_addr_delay_1 \
+sim:/PROCESSING_UNIT_tb/fp_I_W3 \
+sim:/PROCESSING_UNIT_tb/rawData_I_W3 \
+sim:/PROCESSING_UNIT_tb/status_I_W3 \
+sim:/PROCESSING_UNIT_tb/holdData_I_W3 \
+sim:/PROCESSING_UNIT_tb/I_W3_offset \
+sim:/PROCESSING_UNIT_tb/I_W3 \
+sim:/PROCESSING_UNIT_tb/Data_Type_Conversion2_out1_addr_delay_1 \
+sim:/PROCESSING_UNIT_tb/fp_I_W2 \
+sim:/PROCESSING_UNIT_tb/rawData_I_W2 \
+sim:/PROCESSING_UNIT_tb/status_I_W2 \
+sim:/PROCESSING_UNIT_tb/holdData_I_W2 \
+sim:/PROCESSING_UNIT_tb/I_W2_offset \
+sim:/PROCESSING_UNIT_tb/I_W2 \
+sim:/PROCESSING_UNIT_tb/Data_Type_Conversion1_out1_addr_delay_1 \
+sim:/PROCESSING_UNIT_tb/fp_I_W1 \
+sim:/PROCESSING_UNIT_tb/rawData_I_W1 \
+sim:/PROCESSING_UNIT_tb/status_I_W1 \
+sim:/PROCESSING_UNIT_tb/holdData_I_W1 \
+sim:/PROCESSING_UNIT_tb/I_W1_offset \
+sim:/PROCESSING_UNIT_tb/I_W1 \
+sim:/PROCESSING_UNIT_tb/Data_Type_Conversion_out1_active \
+sim:/PROCESSING_UNIT_tb/Data_Type_Conversion_out1_enb \
+sim:/PROCESSING_UNIT_tb/Data_Type_Conversion_out1_addr_delay_1 \
+sim:/PROCESSING_UNIT_tb/fp_I_W0 \
+sim:/PROCESSING_UNIT_tb/rawData_I_W0 \
+sim:/PROCESSING_UNIT_tb/status_I_W0 \
+sim:/PROCESSING_UNIT_tb/holdData_I_W0 \
+sim:/PROCESSING_UNIT_tb/I_W0_offset \
+sim:/PROCESSING_UNIT_tb/I_W0 \
+sim:/PROCESSING_UNIT_tb/check1_done \
+sim:/PROCESSING_UNIT_tb/snkDonen \
+sim:/PROCESSING_UNIT_tb/resetn \
+sim:/PROCESSING_UNIT_tb/tb_enb \
+sim:/PROCESSING_UNIT_tb/ce_out \
+sim:/PROCESSING_UNIT_tb/o_Y \
+sim:/PROCESSING_UNIT_tb/o_Y_enb \
+sim:/PROCESSING_UNIT_tb/o_Y_lastAddr \
+sim:/PROCESSING_UNIT_tb/o_Y_addr_delay_1 \
+sim:/PROCESSING_UNIT_tb/fp_o_Y_expected \
+sim:/PROCESSING_UNIT_tb/o_Y_expected \
+sim:/PROCESSING_UNIT_tb/status_o_Y_expected \
+sim:/PROCESSING_UNIT_tb/o_Y_ref \
+sim:/PROCESSING_UNIT_tb/o_Y_testFailure \
+sim:/PROCESSING_UNIT_tb/testFailure
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "I_X3.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v(142)
+#    Time: 0 ns  Iteration: 0  Instance: /PROCESSING_UNIT_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#INITIAL#140(I_X3_fileread) File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 143
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "I_X2.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v(184)
+#    Time: 0 ns  Iteration: 0  Instance: /PROCESSING_UNIT_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#INITIAL#182(I_X2_fileread) File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 185
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "I_X1.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v(226)
+#    Time: 0 ns  Iteration: 0  Instance: /PROCESSING_UNIT_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#INITIAL#224(I_X1_fileread) File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 227
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "I_X0.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v(268)
+#    Time: 0 ns  Iteration: 0  Instance: /PROCESSING_UNIT_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#INITIAL#266(I_X0_fileread) File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 269
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "I_W3.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v(310)
+#    Time: 0 ns  Iteration: 0  Instance: /PROCESSING_UNIT_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#INITIAL#308(I_W3_fileread) File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 311
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "I_W2.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v(352)
+#    Time: 0 ns  Iteration: 0  Instance: /PROCESSING_UNIT_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#INITIAL#350(I_W2_fileread) File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 353
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "I_W1.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v(394)
+#    Time: 0 ns  Iteration: 0  Instance: /PROCESSING_UNIT_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#INITIAL#392(I_W1_fileread) File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 395
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "I_W0.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v(467)
+#    Time: 0 ns  Iteration: 0  Instance: /PROCESSING_UNIT_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#INITIAL#465(I_W0_fileread) File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 468
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "o_Y_expected.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v(626)
+#    Time: 0 ns  Iteration: 0  Instance: /PROCESSING_UNIT_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#INITIAL#624(o_Y_expected_fileread) File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 627
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /PROCESSING_UNIT_tb/#ALWAYS#146 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /PROCESSING_UNIT_tb/#ALWAYS#188 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /PROCESSING_UNIT_tb/#ALWAYS#230 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /PROCESSING_UNIT_tb/#ALWAYS#272 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /PROCESSING_UNIT_tb/#ALWAYS#314 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /PROCESSING_UNIT_tb/#ALWAYS#356 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /PROCESSING_UNIT_tb/#ALWAYS#398 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /PROCESSING_UNIT_tb/#ALWAYS#471 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 32 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#630 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 636
+# ERROR in o_Y at time                   40 : Expected 'xxxx' Actual '0000'
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#630 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#146 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#188 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#230 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#272 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#314 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#356 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#398 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#471 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 477
+# ERROR in o_Y at time                   50 : Expected 'xxxx' Actual '0000'
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#630 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#146 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#188 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#230 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#272 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#314 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#356 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#398 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#471 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#630 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#146 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#188 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#230 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#272 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#314 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#356 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#398 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#471 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#630 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#146 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#188 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#230 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#272 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#314 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#356 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#398 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#471 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#630 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#146 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#188 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#230 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#272 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#314 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#356 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#398 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#471 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#630 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#146 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#188 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#230 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#272 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#314 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#356 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#398 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#471 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#630 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#146 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#188 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#230 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#272 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#314 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#356 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#398 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#471 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#630 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#146 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#188 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#230 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#272 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#314 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#356 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#398 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#471 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#630 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#146 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#188 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#230 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#272 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#314 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#356 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#398 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#471 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#630 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#146 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#188 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#230 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#272 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#314 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#356 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#398 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /PROCESSING_UNIT_tb/#ALWAYS#471 File: C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v Line: 477
+# **************TEST COMPLETED (FAILED)**************
+# ** Note: $stop    : C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v(554)
+#    Time: 160 ns  Iteration: 0  Instance: /PROCESSING_UNIT_tb
+# Break in NamedBeginStat I_CLK_gen at C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v line 554
+# End time: 20:38:32 on Jan 14,2023, Elapsed time: 0:16:19
+# Errors: 108, Warnings: 14

@@ -1,0 +1,19 @@
+onbreak resume
+onerror resume
+vsim -voptargs=+acc work.PROCESSING_UNIT_tb
+
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/I_CLK
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/I_RST_N
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/I_CLK_eN
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/I_W0
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/I_W1
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/I_W2
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/I_W3
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/I_X0
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/I_X1
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/I_X2
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/I_X3
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/ce_out
+add wave sim:/PROCESSING_UNIT_tb/u_PROCESSING_UNIT/o_Y
+add wave sim:/PROCESSING_UNIT_tb/o_Y_ref
+run -all

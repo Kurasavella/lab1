@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vPROCESSING_UNIT
+!s110 1673720518
+!i10b 1
+!s100 IXTjg^>V=]cQGK7VV1^MT1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+InQT^PBhCZ=OVmXl6[PC9j2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/3 course/AP/lab1/modelsim
+w1673705987
+8C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT.v
+FC:/3 course/AP/lab1/modelsim/PROCESSING_UNIT.v
+!i122 0
+L0 40 257
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1673720518.000000
+!s107 C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@p@r@o@c@e@s@s@i@n@g_@u@n@i@t
+vPROCESSING_UNIT_tb
+!s110 1673720519
+!i10b 1
+!s100 3TV4`Dj;J]H<2_bGdN_4F0
+R0
+I5[>c6Pz^PY`UQX>^:ZQ[A3
+R1
+R2
+w1673720157
+8C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v
+FC:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v
+!i122 1
+L0 40 630
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/3 course/AP/lab1/modelsim/PROCESSING_UNIT_tb.v|
+!i113 1
+R5
+R6
+n@p@r@o@c@e@s@s@i@n@g_@u@n@i@t_tb
